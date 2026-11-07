@@ -1,3 +1,4 @@
-build
-e2e
+dist
+.angular
+coverage
 package-lock.json
