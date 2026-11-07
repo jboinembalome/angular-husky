@@ -9,4 +9,9 @@ import {RouterOutlet} from '@angular/router';
 })
 export class App {
   protected readonly title = signal('angular-husky');
+
+  protected sayHello(): string {
+    const hello = 'Hello';
+    return `${hello}, ${this.title()}!`;
+  }
 }
